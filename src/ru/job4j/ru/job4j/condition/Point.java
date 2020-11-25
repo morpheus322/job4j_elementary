@@ -7,9 +7,10 @@ public class Point {
         double three = Math.pow(first, 2);
         double four = Math.pow(second, 2);
         double five = three + four;
-        double rls =Math.sqrt(five);
+        double rls = Math.sqrt(five);
         return rls;
     }
+
     public static void main(String[] args) {
         double result = Point.distance(1, 2, 8, 6);
         System.out.println("result (1, 2) to (8, 6) " + result);
